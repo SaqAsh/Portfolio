@@ -5,7 +5,7 @@ import styles from "./Input.module.css";
 
 export default function Input({ command, onSubmit }) {
   const [_command, setCommand] = useState(command ? command : "");
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     setCommand("");

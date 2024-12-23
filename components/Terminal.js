@@ -19,7 +19,7 @@ export default function Terminal() {
       .replace(/'/g, "&#039;");
 
   const addCommand = async (command) => {
-    command = command.trim()
+    command = command.trim().toLowerCase();
     let output;
     setLoading(true);
     setCommands([...commands, { command, output: "Loading..." }]);

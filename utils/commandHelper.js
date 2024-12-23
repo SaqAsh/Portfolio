@@ -75,8 +75,8 @@ export const CONTENTS = {
     () => `I am a second year engineering student at  at <a href="https://uwaterloo.ca/content/home" target="_blank">University of Waterloo</a>.`,
   skills: () => `
     I am experienced with Javascript, Typescript and Python and the web technologies dominating at the time:<br />
-    <div class="skill"><b>core</b>: HTML, CSS, Node.js and PHP<br /></div>
-    <div class="skill"><b>frameworks</b>: React, NextJS, Django, Express and Laravel<br /></div>
+    <div class="skill"><b>core</b>: HTML, CSS, Node.js, Angular.js and .NET<br /></div>
+    <div class="skill"><b>frameworks</b>: React, NextJS, Express, Angular <br /></div>
     <div class="skill"><b>database</b>: MongoDB, PostgreSQL, MySQL, and SQLite<br /></div>
   `,
   projects: getProjects,

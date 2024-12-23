@@ -26,7 +26,7 @@ export async function GET(request, { params }) {
   const data = await res.json();
 
   if (data.records.length === 0) {
-    return redirect("https://kavin.me");
+    return redirect("");
   }
 
   const record = data.records[0];

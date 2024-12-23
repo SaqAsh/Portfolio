@@ -8,12 +8,12 @@ export default function Home() {
       <h1>
         saqibashraf:$ <span className={styles.help}>type help to start</span>
       </h1>
-      <p>
+      {/* <p>
         Visit{" "}
         <a href="https://n.kavin.me" target="_blank" rel="noreferrer">
           Normal website
         </a>
-      </p>
+      </p> */}
 
       <Terminal />
     </div>

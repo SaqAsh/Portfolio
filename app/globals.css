@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --text-color: #a9b1d6;
-  --primary: #bb9af7;
-  --secondary: #2ac3de;
-  --background-color: #1a1b26;
+  --text-color: #c7ccd1;
+  --primary: #51afef;
+  --secondary: #ff6c6b;
+  --background-color: #181a20;
 }
 
 html,
@@ -36,7 +36,7 @@ body {
   padding: 16px;
   background-color: var(--background-color);
   color: var(--text-color);
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.6;
   width: 100%;
   height: 100vh;

@@ -82,7 +82,8 @@ export const CONTENTS = {
   projects: getProjects,
   contact: getContacts,
   resume: () => {
-    window.open("", "_blank");
+    window.open("https://saqash.github.io/resume/", "_blank");
+    
     return "";
   },
   error: (input) =>

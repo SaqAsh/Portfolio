@@ -32,18 +32,20 @@ const COMMANDS = [
 
 const getProjects = async () => {
   const projects = await (await fetch("/api/projects")).json();
+  // const projectHTML =
+  //   `<h3>My Projects (You can scroll)</h3>` +
+  //   projects
+  //     .map(
+  //       (project) => `<div class="command">
+  //       <a href="${project.link}" target="_blank"><b class="command">${
+  //         project.name
+  //       }</b></a> - <b>${project.stack.join(", ")}</b>
+  //       <p class="meaning">${project.description}</p>
+  //     </div>`
+  //     )
+  //     .join("");
   const projectHTML =
-    `<h3>My Projects (You can scroll)</h3>` +
-    projects
-      .map(
-        (project) => `<div class="command">
-        <a href="${project.link}" target="_blank"><b class="command">${
-          project.name
-        }</b></a> - <b>${project.stack.join(", ")}</b>
-        <p class="meaning">${project.description}</p>
-      </div>`
-      )
-      .join("");
+    `<p>I'm currently working on showcasing my projects here. Stay tuned!</p>`
   return projectHTML;
 };
 

@@ -37,6 +37,14 @@ export default async function handler(req, res) {
         image: "",
         largeImage: "",
       },
+      {
+        name:"STUDY!",
+        description:
+        "Say goodbye to procrastination and supercharge your focus with STUDY! This smart tool uses psutil to detect distracting applications and automatically shuts them down, keeping you on track and fully focused on your goals. Stay productive, stay focused, and get things done",
+        stack:["Python", "Psutil","Custom Tkinter"],
+        link:"https://github.com/SaqAsh/Study",
+        
+      }
     ];
 
     return res.json(projects);

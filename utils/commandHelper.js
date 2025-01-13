@@ -81,6 +81,12 @@ export const CONTENTS = {
     <div class="skill"><b>core</b>: HTML, CSS, Node.js, Angular.js and .NET<br /></div>
     <div class="skill"><b>frameworks</b>: React, NextJS, Express, Angular <br /></div>
     <div class="skill"><b>database</b>: MongoDB, PostgreSQL, MySQL, and SQLite<br /></div>
+    <br/>
+Apart from web technologies, as an Electrical Engineering student, I also delve into low-level programming and hardware interfacing. I have experience in the following areas:
+<div class="skill"><b>Languages</b>: C++, C, Matlab, VHDL, Verilog<br /></div> 
+<div class="skill"><b>Libraries and Frameworks</b>: FreeRTOS, STM32 HAL, CMSIS<br /></div>
+<div class="skill"><b>Communication Protocols</b>: SPI, I2C, UART, CAN<br /></div> 
+<div class="skill"><b>Embedded Tools and Equipment</b>: Oscilloscopes, Logic Analyzers, Multimeters<br /></div>
   `,
   projects: getProjects,
   contact: getContacts,

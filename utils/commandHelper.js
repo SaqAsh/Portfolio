@@ -75,7 +75,7 @@ export const CONTENTS = {
   about: () => `Hello! I'm Saqib, a passionate engineer with a knack for problem-solving. While I am still young at ${getAge("September 26, 2005")} years old, I also love hitting the soccer field whenever I get the chance.`
   ,
   education:
-    () => `I am a second year Electrical and Computer engineering student at  at <a href="https://uwaterloo.ca/content/home" target="_blank">University of Waterloo</a>.`,
+    () => `I am a second year Electrical and Computer engineering student at <a href="https://uwaterloo.ca/content/home" target="_blank">University of Waterloo</a>.`,
   skills: () => `
     I am experienced with Javascript, Typescript and Python and the web technologies dominating at the time:<br />
     <div class="skill"><b>core</b>: HTML, CSS, Node.js, Angular.js and .NET<br /></div>

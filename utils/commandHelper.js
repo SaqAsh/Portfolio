@@ -115,7 +115,7 @@ export const CONTENTS = {
 
 	skills: () => `
     I am experienced with Javascript, Typescript and Python and the web technologies dominating at the time:<br />
-    <div class="skill"><b>core</b>: Java, Spring Boot, React.js, Ruby on Rail, Node.js, and .NET<br /></div>
+    <div class="skill"><b>core</b>: Java, Spring Boot, React.js, Ruby on Rails, Node.js, and .NET<br /></div>
     <div class="skill"><b>frameworks</b>: React, NextJS, Express, Angular , Vite, Storybook<br /></div>
     <div class="skill"><b>database</b>: MongoDB, PostgreSQL, MySQL, and SQLite, GraphQL<br /></div>
     <br />

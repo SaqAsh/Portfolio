@@ -2,6 +2,10 @@ import Terminal from "../components/Terminal";
 
 import styles from "./Home.module.css";
 
+/**
+ * Main page component for the portfolio website.
+ * @returns {JSX.Element}
+ */
 export default function Home() {
 	return (
 		<div className={styles.container}>

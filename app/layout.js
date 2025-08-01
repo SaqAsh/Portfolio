@@ -8,6 +8,12 @@ export const metadata = {
 	description: "Personal website of Saqib Ashraf",
 };
 
+/**
+ * Root layout component for the Next.js application.
+ * @param {Object} props
+ * @param {React.ReactNode} props.children
+ * @returns {JSX.Element}
+ */
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">

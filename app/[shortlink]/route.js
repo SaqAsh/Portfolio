@@ -1,5 +1,13 @@
 import { redirect } from "next/navigation";
 
+/**
+ * Dynamic route handler for shortlink redirections.
+ * @param {Request} request
+ * @param {Object} context
+ * @param {Object} context.params
+ * @param {string} context.params.shortlink
+ * @returns {Promise<Response>}
+ */
 export async function GET(request, { params }) {
 	const { shortlink } = params;
 

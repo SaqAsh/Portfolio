@@ -3,6 +3,13 @@
 import { useState } from "react";
 import styles from "./Input.module.css";
 
+/**
+ * Input component for the terminal interface.
+ * @param {Object} props
+ * @param {string} [props.command]
+ * @param {Function} props.onSubmit
+ * @returns {JSX.Element}
+ */
 export default function Input({ command, onSubmit }) {
 	const [_command, setCommand] = useState(command ? command : "");
 

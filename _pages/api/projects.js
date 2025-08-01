@@ -1,11 +1,16 @@
 import Cors from "cors";
 import runMiddleware from "../../utils/runMiddleware";
 
-// Initializing the cors middleware
 const cors = Cors({
 	methods: ["GET", "HEAD"],
 });
 
+/**
+ * Legacy pages router API route for fetching projects data.
+ * @param {Object} req - Request object
+ * @param {Object} res - Response object
+ * @returns {Promise<void>}
+ */
 export default async function handler(req, res) {
 	await runMiddleware(req, res, cors);
 	if (req.method === "GET") {

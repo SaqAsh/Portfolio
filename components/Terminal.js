@@ -5,6 +5,10 @@ import { CONTENTS } from "../utils/commandHelper";
 import Command from "./Command";
 import styles from "./Terminal.module.css";
 
+/**
+ * Terminal component that provides an interactive command-line interface.
+ * @returns {JSX.Element}
+ */
 export default function Terminal() {
 	const [commands, setCommands] = useState([]);
 	const [loading, setLoading] = useState(false);
@@ -23,6 +27,7 @@ export default function Terminal() {
 		let output;
 		setLoading(true);
 		setCommands([...commands, { command, output: "Loading..." }]);
+
 		if (`${command}` in CONTENTS) {
 			output = await CONTENTS[`${command}`]();
 		} else if (command === "clear") {
@@ -37,6 +42,7 @@ export default function Terminal() {
 			...commands.slice(0, commands.length),
 			{ command, output },
 		]);
+
 		if (terminalRef) {
 			terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
 		}
@@ -44,7 +50,6 @@ export default function Terminal() {
 
 	return (
 		<div className={styles.terminal} ref={terminalRef}>
-			{/* <Command command="help" output="Some very long text will go in here" /> */}
 			{commands.map(({ command, output }, index) => (
 				<Command command={command} output={output} key={index} />
 			))}

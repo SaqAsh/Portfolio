@@ -14,8 +14,7 @@
  * @property {string} description
  * @property {string} link
  * @property {string[]} stack
- */
-
+ k
 /**
  * @typedef {Object} Contact
  * @property {string} medium

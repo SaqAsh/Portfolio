@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 /**
  * Output component for displaying command results.
  * @param {Object} props
@@ -8,6 +10,6 @@ export default function Output({ output }) {
 	return output ? (
 		<p dangerouslySetInnerHTML={{ __html: output }}></p>
 	) : (
-		<></>
+		<Fragment></Fragment>
 	);
 }

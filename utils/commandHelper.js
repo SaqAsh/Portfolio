@@ -41,10 +41,6 @@ const COMMANDS = [
 		description: "My Projects",
 	},
 	{
-		command: "resume",
-		description: "My Resume",
-	},
-	{
 		command: "contact",
 		description: "Contact Me",
 	},
@@ -53,6 +49,36 @@ const COMMANDS = [
 		description: "Clear terminal",
 	},
 ];
+// const COMMANDS = [
+// 	{
+// 		command: "about",
+// 		description: "About Me",
+// 	},
+// 	{
+// 		command: "education",
+// 		description: "My Education",
+// 	},
+// 	{
+// 		command: "skills",
+// 		description: "My Skills",
+// 	},
+// 	{
+// 		command: "projects",
+// 		description: "My Projects",
+// 	},
+// 	{
+// 		command: "resume",
+// 		description: "My Resume",
+// 	},
+// 	{
+// 		command: "contact",
+// 		description: "Contact Me",
+// 	},
+// 	{
+// 		command: "clear",
+// 		description: "Clear terminal",
+// 	},
+// ];
 
 const getProjects = async () => {
 	const projects = await (await fetch("/api/projects")).json();
@@ -129,10 +155,10 @@ Apart from web technologies, as an Computer Engineering student, I also delve in
 	projects: getProjects,
 	contact: getContacts,
 
-	resume: () => {
-		window.open("https://saqash.github.io/resume/", "_blank");
-		return "";
-	},
+	// resume: () => {
+	// 	window.open("https://saqash.github.io/resume/", "_blank");
+	// 	return "";
+	// },
 
 	error: (input) =>
 		`<div class="help-command">sh: Unknown command: ${input}</div><div class="help-command">See \`help\` for info`,

@@ -109,16 +109,21 @@ export const CONTENTS = {
     `I am a second year Computer engineering student at <a href="https://uwaterloo.ca/content/home" target="_blank">University of Waterloo</a>.`,
 
   skills: () => `
-    I am experienced with Javascript, Typescript and Python and the web technologies dominating at the time:<br />
-    <div class="skill"><b>core</b>: Java, Spring Boot, React.js, Ruby on Rails, Node.js, and .NET<br /></div>
-    <div class="skill"><b>frameworks</b>: React, NextJS, Express, Angular , Vite, Storybook<br /></div>
-    <div class="skill"><b>database</b>: MongoDB, PostgreSQL, MySQL, and SQLite, GraphQL<br /></div>
+    As a Computer Engineering student, I have extensive experience in low-level programming and hardware interfacing:<br />
+    <div class="skill"><b>Systems Languages</b>: C++, C, Rust, Zig, Assembly (x86, RISC-V)<br /></div>
+    <div class="skill"><b>Hardware Description</b>: VHDL, Verilog<br /></div>
+    <div class="skill"><b>Real-time Systems</b>: FreeRTOS, STM32 HAL, CMSIS, Multithreading, Concurrency, Thread synchronization<br /></div>
+    <div class="skill"><b>Communication Protocols</b>: SPI, I2C, UART, CAN, TCP/IP, HTTP/HTTPS<br /></div>
+    <div class="skill"><b>Performance & Optimization</b>: Memory management, Cache optimization, Profiling, Performance tuning<br /></div>
+    <div class="skill"><b>Embedded Tools</b>: Oscilloscopes, Logic Analyzers, Multimeters, Debuggers<br /></div>
     <br />
-Apart from web technologies, as an Computer Engineering student, I also delve into low-level programming and hardware interfacing. I have experience in the following areas:
-<div class="skill"><b>Languages</b>: C++, C, Matlab, VHDL, Verilog<br /></div> 
-<div class="skill"><b>Libraries and Frameworks</b>: FreeRTOS, STM32 HAL, CMSIS<br /></div>
-<div class="skill"><b>Communication Protocols</b>: SPI, I2C, UART, CAN<br /></div> 
-<div class="skill"><b>Embedded Tools and Equipment</b>: Oscilloscopes, Logic Analyzers, Multimeters<br /></div>
+    In web development, I work with modern technologies and cloud platforms:<br />
+    <div class="skill"><b>Core Languages</b>: JavaScript, TypeScript, Python, Java, C#<br /></div>
+    <div class="skill"><b>Backend Frameworks</b>: Node.js, Express, Spring Boot, .NET Core, Ruby on Rails<br /></div>
+    <div class="skill"><b>Frontend Frameworks</b>: React, NextJS, Angular, Vite, Storybook<br /></div>
+    <div class="skill"><b>Databases</b>: MongoDB, PostgreSQL, MySQL, SQLite, Redis, GraphQL<br /></div>
+    <div class="skill"><b>Cloud & DevOps</b>: AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, CI/CD<br /></div>
+    <div class="skill"><b>Web Servers & Performance</b>: Nginx, Apache, Load balancing, Caching strategies, CDN<br /></div>
   `,
   projects: getProjects,
   contact: getContacts,

@@ -13,8 +13,8 @@ export default function Home() {
       <div className="mobileRedirect">
         <h1>Mobile Detected</h1>
         <p>
-          It looks like you're on mobile. Please visit my mobile page for the
-          best experience.
+          It looks like you&apos;re on mobile. Please visit my mobile page for
+          the best experience.
         </p>
         <a href="https://m.saqibashraf.com" target="_blank" rel="noreferrer">
           Visit Mobile Site
